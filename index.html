@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        
+        <nav >
+            <div class="nav_item">Головна</div>
+            <div class="nav_item">Наші переваги</div>
+            <div class="nav_item">Новини та акції</div>
+            <div class="nav_item">Контакти</div>
+            <div class="nav_item">Записатися</div>
+        </nav>
+        <header>
+            <img src="./img/logo.png" alt="">
+        </header>
+        <div class="mobile_nav">
+            <p>Записатися</p>
+            <div onclick="burgerToggle()" class="burger">
+                <div class="burger_line"></div>
+                <div class="burger_line"></div>
+                <div class="burger_line"></div>
+            </div>
+        </div>
+        <div class="nav_2" id="nav">
+            <div class="nav_item">Головна</div>
+            <div class="nav_item">Наші переваги</div>
+            <div class="nav_item">Новини та акції</div>
+            <div class="nav_item">Контакти</div>
+            <div class="nav_item">Записатися</div>
+            
+        </div>
+        <aside>
+            <div class="aside_item_left">
+                <h1>Стрижка в нас
+                    це вигідно!</h1>
+                <p>Чоловіча стрижка вимагає
+                    точний підхід. Звернемося
+                    до статистики:</p>
+                <h4>* — наведені дані брехня</h4>
+            </div>
+            <div class="aside_item_right">
+                <div class="aside_item_right_item aside_item_right_item_first">
+                    <h1>1500*</h1>
+                    <p>гривень вкладень</p>
+                </div>
+                <div class="aside_item_right_item aside_item_right_item_second">
+                    <h1>7 200</h1>
+                    <p>секунд часу майстра</p>
+                </div>
+                <div class="aside_item_right_item aside_item_right_item_third">
+                    <h1>90 000</h1>
+                    <p>постриженого волосся</p>
+                </div>
+                <div class="aside_item_right_item aside_item_right_item_fourth">
+                    <h1>500 000*</h1>
+                    <p>лайків та компліментів</p>
+                </div>
+            </div>
+
+        </aside>
+        <section>
+            <div class="section_item">
+                <img src="./img/shvidko.png" alt="">
+                <div class="section_item_text">
+                <h2>ШВИДКО</h2>
+                <p>Ми робимо свою роботу швидко!
+                    Дві години пролетять непомітно
+                    і ви - щасливий володар
+                    стильної стрижки-хвилинки</p>
+            </div></div>
+            <div class="section_item section_item_second">
+                <img src="./img/kruto.png" alt="">
+                <div class="section_item_text">
+                <h2>КРУТО</h2>
+                <p>Забудьте, як ви стриглись
+                    раніше. Ми зробимо з вас
+                    зірку футболу або кіно.
+                    Принаймні зовні.</p>
+            </div></div>
+            <div class="section_item">
+                <img src="./img/dorogo.png" alt="">
+                <div class="section_item_text">
+                <h2>ДОРОГО</h2>
+                <p>Наші майстри – професіонали
+                    своєї справи не можуть коштувати дешево. До того ж, хіба ціна не дає певного статусу?</p>
+            </div></div>
+        </section>
+        <main>
+            <div class="main_item">
+                <div class="main_item_text">
+                    <h1>НОВИНИ ТА АКЦІЇ</h1>
+                    <button class="show_more">ПОКАЗАТИ ВСЕ</button>
+                </div>
+                <div class="main_item_cards">
+                    <div class="main_item_card">
+                        <div class="main_item_card_date">29 ВЕР</div>
+                        <div class="main_item_card_p">
+                            Нам нарешті завезли
+                            комбучу! Тепер ви можете
+                            випити стаканчик під час
+                            стрижки.
+
+                        </div>
+                    </div>
+                    <div class="main_item_card">
+                        <div class="main_item_card_date">19 ВЕР</div>
+                        <div class="main_item_card_p">
+                            У нашій команді поповнення, Борис «Бритва» Стригунець, поповнив наші стрункі лави.
+                            Поспішайте записатися!
+
+                        </div>
+                    </div>
+                    <div class="main_item_card">
+                        <div class="main_item_card_date">9 ВЕР</div>
+                        <div class="main_item_card_p">
+                            Все дорожчає, а наші зачіски немає! Як так? Приходьте, підстрижетесь і дізнаєтеся, в чому
+                            тут каверза!
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="reviews">
+            <div class="review_item">
+                <div class="review_item_text">
+                    <h1>ВІДГУКИ ПРО НАС</h1>
+                    <button class="review_item_button">ЗАЛИШИТИ СВІЙ</button>
+                </div>
+                <div class="review">
+                    <img src="./img/trevis.png" alt="">
+                    <div class="review_text">
+                        <h2>Тревіс Баркер</h2>
+                        <p>Дякую за лисину! Був проїздом у Франківську, заскочив поголитися, щоб було видно нове
+                            татуювання! Дуже круті професіонали.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="location">
+                <h2>Барбершоп БородинсЬкий</h2>
+                <p>м.Івано-Франківськ, вул. Бельведерська 19/8
+                    Тел.: +38 (097) 045-50-67</p>
+            </div>
+            <div class="social">
+                <h2>Давайте дружити!</h2>
+                <div class="icons">
+                    <div class="icon"> <img src="img/vk icon.png" alt="" class="social_img"></div>
+                    <div class="icon"> <img src="img/fb icon.png" alt="" class="social_img"></div>
+                    <div class="icon"> <img src="img/instagram icon.png" alt="" class="social_img"></div>
+                </div>
+            </div>
+            <div class="development">
+                <h2>ЗВЕРСТАНО:</h2>
+                <div class="shkm">
+                    ШКМ
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
